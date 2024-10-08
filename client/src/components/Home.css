@@ -1,0 +1,87 @@
+/* Ensure the container uses the full width and height of the viewport */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Center the content on the page */
+  .home-container {
+    width: 100%;
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Ensure form container occupies more vertical space */
+  .form-container {
+    width: 100%;
+    max-width: 600px; /* Set the maximum width for the form */
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: 20px 0; /* Adds space between different sections */
+    box-sizing: border-box;
+  }
+  
+  /* Increase font size for titles */
+  h1, h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style inputs and buttons */
+  input, select, button {
+    margin: 15px 0;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Link container styles */
+  .link-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Link styled as buttons */
+  .link-button {
+    background: none;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: underline;
+  }
+  
+  .link-button:hover {
+    color: #0056b3;
+  }
+  
